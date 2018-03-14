@@ -23,7 +23,7 @@ namespace GradeBookTests
             var ctor = rankedGradeBook.GetConstructors().FirstOrDefault();
 
             var parameters = ctor.GetParameters();
-            if (parameters.Count() == 2 && parameters[0].ParameterType == typeof(string) && parameters[1].ParameterType == typeof(bool))
+            if (parameters.Count() == 2 && parameters[0].ParameterType == typeof(string) && parameters[1].sadfParameterType == typeof(bool))
                 return;
 
             //Setup Test
