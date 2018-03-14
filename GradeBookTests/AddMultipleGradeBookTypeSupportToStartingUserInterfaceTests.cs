@@ -18,7 +18,7 @@ namespace GradeBookTests
             var rankedGradeBook = (from assembly in AppDomain.CurrentDomain.GetAssemblies()
                                    from type in assembly.GetTypes()
                                    where type.FullName == "GradeBook.GradeBooks.RankedGradeBook"
-                                   select type).FirstOrDefault();
+                                   select type).FirstOrDefault();sadfsad
 
             var ctor = rankedGradeBook.GetConstructors().FirstOrDefault();
 
